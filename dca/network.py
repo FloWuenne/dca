@@ -21,12 +21,12 @@ import numpy as np
 import scanpy as sc
 
 import keras
-from keras.layers import Input, Dense, Dropout, Activation, BatchNormalization, Lambda
-from keras.models import Model
-from keras.regularizers import l1_l2
-from keras.objectives import mean_squared_error
-from keras.initializers import Constant
-from keras import backend as K
+from tensorflow.keras.layers import Input, Dense, Dropout, Activation, BatchNormalization, Lambda
+from tensorflow.keras.models import Model
+from tensorflow.keras.regularizers import l1_l2
+from tensorflow.keras.objectives import mean_squared_error
+from tensorflow.keras.initializers import Constant
+from tensorflow.keras import backend as K
 
 import tensorflow as tf
 

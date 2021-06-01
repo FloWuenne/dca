@@ -1,7 +1,7 @@
 import numpy as np
 from autoencoder.io import read_text
 from autoencoder.network import MLP
-from keras.callbacks import TensorBoard
+from tensorflow.keras.callbacks import TensorBoard
 
 count = read_text('biochemists.tsv', header='infer')
 y = count[:, 0].astype(int)
