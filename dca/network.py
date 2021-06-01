@@ -20,7 +20,7 @@ from abc import ABCMeta, abstractmethod
 import numpy as np
 import scanpy as sc
 
-import keras
+import tensorflow.keras
 from tensorflow.keras.layers import Input, Dense, Dropout, Activation, BatchNormalization, Lambda
 from tensorflow.keras.models import Model
 from tensorflow.keras.regularizers import l1_l2
